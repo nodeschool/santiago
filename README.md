@@ -3,7 +3,7 @@
 
 [Talk Proposals](https://github.com/nodeschool/Santiago/issues/new?title=Keynote%20Proposal%3A%20&body=%23%23%20Titulo%20del%20keynote%0A%0A%0A%23%23%20Descripcion%20del%20keynote%20%0A%0A%0A)
 
-[Mentors Registration](https://github.com/nodeschool/Santiago/issues/new?title=Mentor%20Registration%3A%20&body=%23%23%20Nombre%0A%0A%0A%23%23%20Metodo%20de%20Contacto%20%0A%0A%0A)
+[Mentors Registration](https://github.com/nodeschool/Santiago/issues/5)
 
 Repositorio para organizar los eventos de la comunidad de NodesChool en Santiago de Chile.
 
