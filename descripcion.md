@@ -1,4 +1,4 @@
-# Que es NodeSchool
+# ¿Qué es NodeSchool?
 
 Workshops open source hechos con ***Node*** que corren en tu terminal.
 
@@ -18,24 +18,23 @@ Cualquier persona que quiera organizar un evento de NodeSchool (Y que terminase 
 # Asistentes
   * Duh!
 
-
 # Sponsors
-##### Que tipo de au necesitamos de los sponsors
+##### ¿Qué tipo de auspicio necesitamos de los sponsors?
 #### Venue
 - [x] Un lugar amplio (court central) donde puedan trabajar comodamente 50/60 personas, en mesas.
 - [x] Preferentemente centralizado.
-- [x] Un proyector y un telon para el court central.
+- [x] Un proyector y un telón para el court central.
 *(Bonus si es como la pantalla de la USS)*
 - [x] Electricidad para tanto notebook.
   * Alargadores, zapatillas, extensores, etc.
 - [x] Internet :smile:
 - [x] 3 Salones para hacer los talleres de la tarde.
-  - Cada salon con un proyector y telon.
+  - Cada salón con un proyector y telón.
   - Ojalá con espacio para grabar :camera: los workshops
 
 #### Comida
 - [x] Snacks durante el día.
-- [x] NO es tan importante, pero sería cool tener almuerzos para los asistentes.
+- [x] No es tan importante, pero sería cool tener almuerzos para los asistentes.
 
 #### Comida
 - [x] Stickers
@@ -46,11 +45,11 @@ Cualquier persona que quiera organizar un evento de NodeSchool (Y que terminase 
 - [x] Premios
 
 ---
-#### Sponsorhips - Implica que puede:
+#### Sponsorships - Implica que puede:
 * Realizar publicidad. (?)
   * Pendones
   * Stickers
 * Realizar Recruiting durante el evento. (?)
 * Realizar un workshop. (?)
 * Mencion durante la apertura como cierre (?)
-* Menciones en el loop de video/imágeners que corre durante el evento de NodeSchool. (?)
+* Menciones en el loop de video/imágenes que corre durante el evento de NodeSchool. (?)
