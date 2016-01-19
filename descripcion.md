@@ -45,11 +45,11 @@ Cualquier persona que quiera organizar un evento de NodeSchool (Y que terminase 
 - [x] Premios
 
 ---
-#### Sponsorships - Implica que puede:
+#### Sponsorship - Implica que puede/recibe:
 * Realizar publicidad. (?)
   * Pendones
   * Stickers
 * Realizar Recruiting durante el evento. (?)
 * Realizar un workshop. (?)
-* Mencion durante la apertura como cierre (?)
+* Mención durante la apertura como cierre (?)
 * Menciones en el loop de video/imágenes que corre durante el evento de NodeSchool. (?)
