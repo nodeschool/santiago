@@ -44,7 +44,7 @@ Cualquier persona que quiera organizar un evento de NodeSchool (Y que terminase 
 - [x] Lanyards
 - [x] *Bolsas*
 - [x] Premios
-- 
+
 ---
 #### Sponsorhips - Implica que puede:
 * Realizar publicidad. (?)
