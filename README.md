@@ -10,7 +10,7 @@ Repositorio para organizar los eventos de la comunidad de NodeSchool en Santiago
 **Courses**, **hackathons** and **workshops** by the cool guys at [Noders](http://www.noders.cl/)
 
 
-## Next Event
+## Next EventS
 * NodeSchool - "NoobDay" - TBD (Febrero 2016)
 * NodeSchool - International Day - 21 Mayo 2016
 
