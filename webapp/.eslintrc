@@ -1,0 +1,30 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "defaults/configurations/eslint"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NW__" : false
+  },
+  "rules": {
+    "comma-dangle" : [1, "never"],
+    "func-names"   : 0,
+    "key-spacing"  : 0,
+    "space-before-function-paren" : [2, "always"],
+    "no-else-return"   : 2,
+    "no-multi-spaces"  : 2,
+    "no-unused-vars"   : 0,
+    "no-undef"         : 2,
+    "no-console"       : 0,
+    "quotes"           : [2, "single"],
+    "one-var"          : 0,
+    "jsx-no-bind"      : [0, {allowBind: false}],
+    "jsx-quotes"       : [2, "prefer-single"],
+  }
+}
