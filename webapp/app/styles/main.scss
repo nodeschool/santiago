@@ -37,7 +37,6 @@ p{
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   padding: 10px 0;
   background: #CC6861;
   color: white;
@@ -59,9 +58,6 @@ p{
   .nav > li > a:hover{
     background: #B75B54;
   }
-}
-
-.landing{
 }
 
 #googlemaps {
@@ -106,8 +102,11 @@ p{
 
 /* Main marketing message and sign up button */
 .landing {
+  background: url('/images/scl-1.jpg') center center no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 20px 0;
+  color: white;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -156,9 +155,16 @@ p{
     padding-right: 0;
   }
 
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  .landing{
+    .call-to-action{
+      padding-top: 35px;
+      h2{
+        margin-bottom: 20px;
+      }
+      p.date{
+        margin-bottom: 30px;
+      }
+    }
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
