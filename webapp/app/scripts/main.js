@@ -15,8 +15,9 @@ function showGoogleMaps() {
         center: latLng
     };
 
-    var map = new google.maps.Map(document.getElementById('googlemaps'),
-        mapOptions);
+    var map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
+
+    var infowindow = new google.maps.InfoWindow({content: '<h4>Universidad San Sebastián</h4><p>Bellavista 7, Recoleta, Santiago.</p>'});
 
     // Show the default red marker at the location
     var marker = new google.maps.Marker({
@@ -25,6 +26,8 @@ function showGoogleMaps() {
         draggable: false,
         animation: google.maps.Animation.DROP
     });
+
+    infowindow.open(map, marker);
 }
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
