@@ -34,7 +34,7 @@ h1{
 
 
 
-p{
+p, ul{
   font-size: 17px;
   font-weight: 200;
   line-height: 30px;
@@ -156,7 +156,12 @@ p{
     background-color: #2A6AA0;
     border: 1px solid #25649A;
   }
-
+  a{
+    text-decoration: underline;
+  }
+  a.btn{
+    text-decoration: none;
+  }
   .contents{
     .content{
       padding-bottom: 15px;
