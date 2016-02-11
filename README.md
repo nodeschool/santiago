@@ -11,7 +11,7 @@ Repositorio para organizar los eventos de la comunidad de NodeSchool en Santiago
 
 
 ## Next EventS
-* NodeSchool - "NoobDay" - TBD (Febrero 2016)
+* NodeSchool - 27 Febrero 2016
 * NodeSchool - International Day - 21 Mayo 2016
 
 ## Previous Event
@@ -22,7 +22,9 @@ Repositorio para organizar los eventos de la comunidad de NodeSchool en Santiago
 ## Contributors
 * [@fforres](github.com/fforres)
 * [@xabadu](github.com/xabadu)
+* [@jorgevenegas](github.com/jorgevenegas)
+* [@comunacho](github.com/comunacho)
 
 ## Partners
 * [Javascript Chile](http://www.meetup.com/es-ES/Javascript-Chile/)
-* [Noders.cl](http://www.noders.cl/)
+* [Noders](http://www.noders.cl/)
