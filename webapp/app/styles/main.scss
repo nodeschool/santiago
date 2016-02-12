@@ -42,26 +42,29 @@ p, ul{
 
 /* Custom page header */
 .header {
-  padding: 10px 0;
   background: #b1180d;
-  color: white;
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    text-transform: none;
-  }
-  .nav-pills{
-    li a{
-      color: white;
-      :hover{
-        background: black;
+  .container {
+    padding: 10px 0;
+    color: white;
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+      margin-top: 5px;
+      margin-bottom: 0;
+      line-height: 40px;
+      text-transform: none;
+      float: left;
+    }
+    .nav-pills{
+      li a{
+        color: white;
+        :hover{
+          background: black;
+        }
       }
     }
-  }
-  .nav > li > a:hover{
-    background: #B75B54;
+    .nav > li > a:hover{
+      background: #B75B54;
+    }
   }
 }
 
@@ -83,32 +86,31 @@ p, ul{
   border-top: 1px solid #e5e5e5;
 }
 
-.row {
-  .container {
-    padding:15px 0;
-    div {
-      padding-bottom: 30px;
-      &:last-child{
-        padding-bottom: 0;
-      }
+.container {
+  padding:15px 0;
+  div {
+    padding-bottom: 30px;
+    &:last-child{
+      padding-bottom: 0;
     }
-    h3{
-      text-transform: uppercase;
-      font-weight: 700;
-      padding: 0;
-      margin: 0 0 30px;
-    }
-    .photostrip {
-      margin-top: 30px;
-      h4{
-        padding: 20px 0 0;
-        a{
-          color: #337ab7;
-        }
+  }
+  h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 30px;
+  }
+  .photostrip {
+    margin-top: 30px;
+    h4{
+      padding: 20px 0 0;
+      a{
+        color: #337ab7;
       }
     }
   }
 }
+
 .container-narrow > hr {
   margin: 30px 0;
 }
