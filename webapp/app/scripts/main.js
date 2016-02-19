@@ -1,12 +1,12 @@
 // The latitude and longitude of your business / place
-var position = [-33.4345063,-70.6358538];
+var position = [-33.414871, -70.603888];
 
 function showGoogleMaps() {
 
     var latLng = new google.maps.LatLng(position[0], position[1]);
 
     var mapOptions = {
-        zoom: 17, // initialize zoom level - the max value is 21
+        zoom: 16, // initialize zoom level - the max value is 21
         streetViewControl: false, // hide the yellow Street View pegman
         scaleControl: false, // allow users to zoom the Google Map
         draggable: false,
@@ -17,7 +17,7 @@ function showGoogleMaps() {
 
     var map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
 
-    var infowindow = new google.maps.InfoWindow({content: '<h4>Universidad San Sebastián</h4><p>Bellavista 7, Recoleta, Santiago.</p>'});
+    var infowindow = new google.maps.InfoWindow({content: '<h4>Groupon LatAm</h4><p>Vitacura 2771, Piso 7.<br>Las Condes, Santiago.</p>'});
 
     // Show the default red marker at the location
     var marker = new google.maps.Marker({
