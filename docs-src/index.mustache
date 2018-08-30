@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+    <title>NodeSchool Santiago</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="site">
+
+      <header id="header" class="header">
+        <a class="nodeschool-sf-love" href="https://nodeschool.io/sanfrancisco">
+          <strong class="strong--alt">&iexcl;Hola NodeSchool SF! ❤️
+        </a>
+
+        <div class="header__content section__content">
+          <div class="header__identification">
+              <img id="logo" class="header__logo" src="./images/nodeschool-santiago-hexagon.svg" />
+            <div class="header__logo-text">
+              <div class="header__logo-text__nodeschool">NodeSchool</div>
+              <div class="header__logo-text__sf">Santiago</div>
+            </div>
+            <nav class="header__social-links">
+              <a href="https://twitter.com/nodeschoolstgo">
+                <svg class="icon icon-twitter">
+                  <use xlink:href="./images/nodeschool_icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="https://github.com/nodeschool/santiago">
+                <svg class="icon icon-github">
+                  <use xlink:href="./images/nodeschool_icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+
+          <div class="header__introduction">
+            <h1 class="header__introduction__heading">&iexcl;Aprende JavaScript con nosotros!</h1>
+            <p class="header__introduction__body">
+              <strong>NodeSchool Santiago</strong> es un meetup dedicado a ayudar a la gente a aprender JavaScript y Node.js. 
+              Nuestra comunidad está formada por gente de todo nivel, desde novatos a expertos, que se reunen a descubrir que cosas pueden hacer usando JavaScript.
+              &iexcl;Trae tu computador y ganas de aprender a nuestro próximo evento, nosotros nos encargamos del resto!
+            </p>
+          </div>
+
+          {{#nextEvent}}
+          <div class="next-event">
+            <div class="next-event__description">
+              <h2 class="next-event__heading">Próximo evento: {{date}}</h2>
+              <ul class="next-event__info">
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">¿Cuándo?</strong> {{dayOfTheWeek}} {{date}}, {{time}}
+                </li>
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">¿Dónde?</strong> {{address}} [<a href="http://maps.google.com/?q={{addressUrlSafe}}" id="map">mapa</a>]
+                </li>
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">¿Qué?</strong> &iexcl;JavaScript, mentoring, y donas 🍩!
+                </li>
+              </ul>
+            </div>
+            <nav class="next-event__links">
+              <a class="next-event__links__learner next-event__links__link button" href="{{ticketsUrl}}">
+                Regístrate como asistente
+              </a><a class="next-event__links__mentor next-event__links__link button" href="{{mentorsUrl}}">
+                Regístrate como mentor
+              </a>
+            </nav>
+          </div>
+          {{/nextEvent}}
+        </div>
+      </header>
+
+      <section id="faq" class="faq section">
+        <div class="faq__content section__content">
+          <h2 class="faq__heading">Preguntas Frecuentes</h2>
+          <dl class="faq__questions">
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Qué debo llevar?</h4>
+            </dt>
+            <dd class="faq__answer">
+              &iexcl;Tu computador, buena onda y ganas de aprender!
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Quién organiza esto?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Cristofer Robles (<a href="https://twitter.com/cristofer-dev">@cristofer-dev</a>), Ender Bonnet (<a href="https://twitter.com/enbonnet">@enBonnet</a>) y Fernando Larrañaga (<a href="https://twitter.com/xabadu">@xabadu</a>) organizan este evento y el chapter de NodeSchool Santiago.
+            </dd>
+
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Qué pasa en un evento de NodeSchool Santiago?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Los eventos de NodeSchool tienen un formato diferente a un taller normal. 
+              Creamos un ambiente libre de estrés para que la gente pueda aprender y trabajar en sus proyectos sin presión y a su propio ritmo, 
+              mientras interactúan con otros asistentes y mentores. Puedes trabajar en los talleres que tenemos disponibles actualmente en el <a href="https://nodeschool.io/#workshoppers">sitio de NodeSchool</a> o tus propios proyectos.
+              Generalmente, nuestros eventos tienen la siguiente estructura:
+              <ul class="schedule">
+                <li class="schedule__item"><strong>11:00</strong> - Llegada</li>
+                <li class="schedule__item"><strong>11:15</strong> - Presentación y anuncios</li>
+                <li class="schedule__item"><strong>11:30-3:00</strong> - Trabajar en talleres/Proyectos - Mentoring</li>
+                <li class="schedule__item"><strong>3:00</strong> - Fin del evento</li>
+              </ul>
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Cuánto cuesta ir a NodeSchool?</h4>
+            </dt>
+            <dd class="faq__answer">
+              &iexcl;NodeSchool es <strong>gratis</strong>! &iexcl;Y además <a href="https://github.com/nodeschool/santiago">open source</a>!
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Cómo me hago mentor?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Para ser mentor no necesitas ser experto. Solo tener las ganas de ayudar y paciencia para ayudar a nuestros asistentes.
+              Si le pedimos algunas cosas a quienes quieran unirse como mentor, específicamente:
+              <ul>
+                <li>Completar los <a href="http://nodeschool.io/#workshopper-list"></a>talleres core de NodeSchool</a> antes del evento.</li>
+                <ul><li>Si además haces alguno de los electivos, &exclmuchísimo mejor!.</li></ul>
+                <li>Revisar las <a href="https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices">buenas prácticas para mentores</a> del sitio de NodeSchool.</li>
+                <li>Llegar 30 minutos antes (10:30p) para que podamos hacer la reunión previa de mentores.</li>
+                <li>Registrarte en el <a href="{{nextEvent.mentorsUrl}}">issue de GitHub del evento</a></li>
+              </ul>
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">¿Tienes más preguntas?</h4>
+            </dt>
+            <dd class="faq__answer"><a href="https://github.com/nodeschool/santiago/issues">Puedes abrir un issue en nuestro repo de GitHub</a> y te responderemos lo antes posible.</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section id="code-of-conduct" class="code-of-conduct section">
+        <div class="code-of-conduct__content section__content">
+          <h2>Código de Conducta</h2>
+          <p><strong>NodeSchool Santiago</strong> está comprometido a crear y proveer una comunidad libre de acoso para todos, 
+            sin importar la identidad de género, orientación sexual, apariencia física, capacidades, edad, raza, nacionalidad y/o creencias religiosas. 
+            No toleramos acoso de ningún tipo hacia, o desde, los miembros de la comunidad durante la duración de nuestros eventos y/o mediante nuestros
+            canales de comunicación previos a este. Quienes atenten contra esto, podrán ser sancionados y/o expulsados de manera temporal o permanente
+            de la participación en futuros eventos, bajo la discreción de los organizadores.</p>
+
+          <h3><strong>NodeSchool Santiago</strong></h3>
+
+          <p>Organizadores:</p>
+          <ul>
+            <li>Cristofer Robles (<a href="https://twitter.com/cristofer-dev">@cristofer-dev</a>)</li>
+            <li>Ender Bonnet (<a href="https://twitter.com/enbonnet">@enBonnet</a>)</li>
+            <li>Fernando Larrañaga (<a href="https://twitter.com/xabadu">@xabadu</a>)</li>
+          </ul>
+
+          <p>Organizadores Anteriores:</p>
+          <ul>
+            <li>Felipe Torres (<a href="https://twitter.com/fforres">@fforres</a>)</li>
+            <li>Jorge Venegas (<a href="https://twitter.com/jorgepvenegas">@jorgepvenegas</a>)</li>
+          </ul>
+          <p><strong>Si tienes preguntas o feedback sobre este Código de Conducta, por favor contáctanos.</strong></p>
+          <p>Adicionalmente, los organizadores de NodeSchool Santiago se adhieren al <a href="http://jsconf.com/codeofconduct.html">Código de Conducta de JSConf</a>.</p>
+        </div>
+      </section>
+
+      <footer id="attribution" class="attribution section">
+        <ul>
+          <li>Este sitio ha sido forkeado (con mucho ❤️️) del sitio de <a href="https://nodeschool.io/oakland/">nuestros amigos de NodeSchool Oakland</a>.</li>
+          <li>Tipografías de <a href="https://fonts.google.com/selection?selection.family=Montserrat|Raleway">Google Fonts</a>.</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
