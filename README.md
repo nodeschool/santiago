@@ -1,28 +1,44 @@
-# Santiago - Chile
-#### ¡Bienvenidos JavaScriptos!
+# NodeSchool Santiago
 
-[Talk Proposals](https://github.com/nodeschool/Santiago/issues/new?title=Keynote%20Proposal%3A%20&body=%23%23%20Titulo%20del%20keynote%0A%0A%0A%23%23%20Descripcion%20del%20keynote%20%0A%0A%0A)
+Bienvenidos al NodeSchool Santiago. Este repositorio es utilizado para el sitio Web y la comunicación de los eventos.
 
-[Mentors Registration](https://github.com/nodeschool/Santiago/issues/5)
-
-Repositorio para organizar los eventos de la comunidad de NodeSchool en Santiago de Chile.
-
-**Courses**, **hackathons** and **workshops** by the cool guys at [Noders](http://www.noders.cl/)
+Sitio Web: http://nodeschool.io/santiago/
 
 
-## Next EventS
-* NodeSchool - "NoobDay" - TBD (Febrero 2016)
-* NodeSchool - International Day - 21 Mayo 2016
+## Contáctanos
 
-## Previous Event
-* NodeSchool - International Day - 2015
+Usamos [GitHub Issues](https://github.com/nodeschool/santiago/issues)
+para mantener nuestra comunicación abierta y transparente. Si por alguna razón necesitas contactar a un organizador, puedes hacerlo de forma directa a través de la información publicada más abajo.
 
 
+## Organizadores
 
-## Contributors
-* [@fforres](github.com/fforres)
-* [@xabadu](github.com/xabadu)
+ - Cristofer Robles, [@cristofer-dev](https://twitter.com/cristofer-dev)
+ - Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
+ - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
 
-## Partners
-* [Javascript Chile](http://www.meetup.com/es-ES/Javascript-Chile/)
-* [Noders.cl](http://www.noders.cl/)
+ ## Organizadores anteriores
+ - Felipe Torres, [@fforres](https://twitter.com/fforres)
+ - Jorge Venegas, [@jorgepvenegas](https://twitter.com/jorgepvenegas)
+
+
+## Contribuciones
+
+Este sitio usa templates de Mustache, Stylus y JavaScript. Es publicado a través de [GitHub Pages](https://pages.github.com/).
+
+#### Ver el sitio de manera local
+
+1. Fork al repositorio.
+2. Clonar el fork a un directorio local: `git clone <fork url here>`
+3. `cd` al directorio del proyecto.
+4. `npm install` para instalar las dependencias.
+
+Para el servidor local de desarrollo:
+
+```bash
+$ npm run docs:dev
+```
+
+Y ahora visita `http://localhost:8080/` en tu navegador para ver el sitio Web.
+
+**Importante**: Los archivos deben ser editados dentro del directorio `docs-src`. Estos archivos luego son compilados en el directorio `docs`. En modo local, los cambios son compilados automáticamente al ejecutar `npm run docs:dev`.
