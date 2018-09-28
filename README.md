@@ -10,14 +10,15 @@ Sitio Web: http://nodeschool.io/santiago/
 Usamos [GitHub Issues](https://github.com/nodeschool/santiago/issues)
 para mantener nuestra comunicación abierta y transparente. Si por alguna razón necesitas contactar a un organizador, puedes hacerlo de forma directa a través de la información publicada más abajo.
 
+También puedes utilizar el canal #nodeschoolstgo en el [Slack de Noders](https://publicslack.com/slacks/noders-slack-com/invites/new)
 
 ## Organizadores
 
  - Cristofer Robles, [@cristofer-dev](https://twitter.com/cristofer-dev)
  - Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
- - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
 
  ## Organizadores anteriores
+ - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
  - Felipe Torres, [@fforres](https://twitter.com/fforres)
  - Jorge Venegas, [@jorgepvenegas](https://twitter.com/jorgepvenegas)
 
