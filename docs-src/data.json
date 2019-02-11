@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Sábado",
-    "date": "6 de Octubre",
-    "time": "2pm - 6pm",
-    "address": "Autofact, Avenida Providencia 2019, Oficina A41",
-    "addressUrlSafe": "Av.+Providencia+2019,+Oficina+A41,+Providencia,+Región+Metropolitana,+Chile",
-    "mentorsUrl": "https://github.com/nodeschool/santiago/issues/21",
-    "ticketsUrl": "https://www.meetup.com/es-ES/NodersJS/events/255077850/"
+    "date": "23 de Febrero",
+    "time": "11am - 3pm",
+    "address": "23People, Av. Providencia 1208, Oficina 306",
+    "addressUrlSafe": "Av.+Providencia+1208,+Oficina+306,+Providencia,+Región+Metropolitana,+Chile",
+    "mentorsUrl": "https://github.com/nodeschool/santiago/issues/24",
+    "ticketsUrl": "https://www.meetup.com/es-ES/NodersJS/events/258877649"
   }
 }

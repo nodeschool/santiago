@@ -4,7 +4,6 @@ Bienvenidos al NodeSchool Santiago. Este repositorio es utilizado para el sitio 
 
 Sitio Web: http://nodeschool.io/santiago/
 
-
 ## Contáctanos
 
 Usamos [GitHub Issues](https://github.com/nodeschool/santiago/issues)
@@ -14,14 +13,14 @@ También puedes utilizar el canal #nodeschoolstgo en el [Slack de Noders](https:
 
 ## Organizadores
 
- - Cristofer Robles, [@cristofer-dev](https://twitter.com/cristofer-dev)
- - Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
+- Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
 
- ## Organizadores anteriores
- - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
- - Felipe Torres, [@fforres](https://twitter.com/fforres)
- - Jorge Venegas, [@jorgepvenegas](https://twitter.com/jorgepvenegas)
+## Organizadores anteriores
 
+- Cristofer Robles, [@cristofer-dev](https://twitter.com/cristofer-dev)
+- Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
+- Felipe Torres, [@fforres](https://twitter.com/fforres)
+- Jorge Venegas, [@jorgepvenegas](https://twitter.com/jorgepvenegas)
 
 ## Contribuciones
 
