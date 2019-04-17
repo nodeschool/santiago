@@ -9,9 +9,9 @@ Sitio Web: http://nodeschool.io/santiago/
 Usamos [GitHub Issues](https://github.com/nodeschool/santiago/issues)
 para mantener nuestra comunicación abierta y transparente. Si por alguna razón necesitas contactar a un organizador, puedes hacerlo de forma directa a través de la información publicada más abajo.
 
-También puedes utilizar el canal #nodeschoolstgo en el [Slack de Noders](https://publicslack.com/slacks/noders-slack-com/invites/new)
+También puedes utilizar el canal #nodeschoolstgo en el [Slack de Noders](https://join.slack.com/t/noders/shared_invite/enQtMjk3MTA5MTk5MDExLWU5YjNkMDZiYWQxOTI1MTI3NzI3YzIwYjMyNDZhZDkxZTY1NDNlZmFhN2NjNzI1MzUwNDBhNjllYTRlZGM5MmI)
 
-## Organizadores
+## Organizador
 
 - Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
 
