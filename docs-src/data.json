@@ -1,11 +1,15 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Sábado",
-    "date": "11 de Mayo",
-    "time": "11:00 - 15:00",
+    "date": "29 de junio",
+    "time": "15:00 - 19:00",
+    "arriveTime": "11:00",
+    "presentationTime": "11:15",
+    "codeTime": "11:30 - 15:00",
+    "endTime": "15:00",
     "address": "23people, Av. Providencia 1208, Oficina 306, Providencia, Santiago",
     "addressUrlSafe": "Av.+Providencia+1208,+Oficina+306,+Providencia,+Región+Metropolitana,+Chile",
-    "mentorsUrl": "https://github.com/nodeschool/santiago/issues/26",
-    "ticketsUrl": "https://www.meetup.com/es-ES/NodersJS/events/261109932"
+    "mentorsUrl": "https://github.com/nodeschool/santiago/issues/27",
+    "ticketsUrl": "https://www.meetup.com/es-ES/NodersJS/events/262401933"
   }
 }

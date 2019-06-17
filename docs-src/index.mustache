@@ -100,10 +100,10 @@
               mientras interactúan con otros asistentes y mentores. Puedes trabajar en los talleres que tenemos disponibles actualmente en el <a href="https://nodeschool.io/#workshoppers">sitio de NodeSchool</a> o tus propios proyectos.
               Generalmente, nuestros eventos tienen la siguiente estructura:
               <ul class="schedule">
-                <li class="schedule__item"><strong>11:00</strong> - Llegada</li>
-                <li class="schedule__item"><strong>11:15</strong> - Presentación y anuncios</li>
-                <li class="schedule__item"><strong>11:30-15:00</strong> - Trabajar en talleres/Proyectos - Mentoring</li>
-                <li class="schedule__item"><strong>15:00</strong> - Fin del evento</li>
+                <li class="schedule__item"><strong>{{nextEvent.arriveTime}} </strong> - Llegada</li>
+                <li class="schedule__item"><strong>{{nextEvent.presentationTime}}</strong> - Presentación y anuncios</li>
+                <li class="schedule__item"><strong>{{nextEvent.codeTime}}</strong> - Trabajar en talleres/Proyectos - Mentoring</li>
+                <li class="schedule__item"><strong>{{nextEvent.endTime}}</strong> - Fin del evento</li>
               </ul>
             </dd>
 
