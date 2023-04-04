@@ -9,14 +9,20 @@ Sitio Web: http://nodeschool.io/santiago/
 Usamos [GitHub Issues](https://github.com/nodeschool/santiago/issues)
 para mantener nuestra comunicación abierta y transparente. Si por alguna razón necesitas contactar a un organizador, puedes hacerlo de forma directa a través de la información publicada más abajo.
 
-También puedes utilizar el canal #nodeschoolstgo en el [Slack de Noders](https://join.slack.com/t/noders/shared_invite/enQtMjk3MTA5MTk5MDExLWU5YjNkMDZiYWQxOTI1MTI3NzI3YzIwYjMyNDZhZDkxZTY1NDNlZmFhN2NjNzI1MzUwNDBhNjllYTRlZGM5MmI)
+También puedes utilizar el canal #nodeschoolstgo en el [Discord de JavaScript Chile](https://discord.gg/BFfezZervM)
 
-## Organizador
+## Organizadores
 
-- Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
+- Ricardo Castillo, [@diruzcode](https://twitter.com/diruzcode)
+- Francisco Cordero, [@panchocorderos](https://twitter.com/panchocorderos)
+- Claudio Alvarez, [@Ofrehley](https://twitter.com/Ofrehley)
+- José Lezama, [@joseglego](https://twitter.com/joseglego)
+- Pillippa Pérez, [@_pilliin_](https://twitter.com/_pilliin_)
+- Felipe Torres, [@fforres](https://twitter.com/fforres)
 
 ## Organizadores anteriores
 
+- Ender Bonnet, [@enBonnet](https://twitter.com/enbonnet)
 - Cristofer Robles, [@cristofer-dev](https://twitter.com/cristofer-dev)
 - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
 - Felipe Torres, [@fforres](https://twitter.com/fforres)
