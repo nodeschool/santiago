@@ -601,7 +601,7 @@ footer ul {
 }
 .next-event {
   margin: 35px 0 0 0;
-  background-color: #2d5d81;
+  background-color: #215732;
   color: #f2f2f2;
   filter: drop-shadow(0 0 15px rgba(0,0,0,0.25));
 }
@@ -632,14 +632,14 @@ footer ul {
 .next-event__links__link {
   display: inline-block;
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 .next-event__links__link:hover,
 .next-event__links__link:focus {
   z-index: 500;
 }
 .next-event__links__mentor {
-  border-left: #2d5d81 1px solid;
+  border-left: #215732 1px solid;
 }
 .next-event__links__mentor:hover,
 .next-event__links__mentor:focus {
