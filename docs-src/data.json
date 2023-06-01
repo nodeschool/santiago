@@ -1,7 +1,7 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Sábado",
-    "date": "22 de abril",
+    "date": "24 de junio",
     "time": "10:00 - 17:00",
     "arriveTime": "10:00",
     "presentationTime": "10:15",
@@ -10,6 +10,6 @@
     "address": "Hub Providencia - Infante 1415, Providencia, Santiago",
     "addressUrlSafe": "https://goo.gl/maps/RL9DkxoxHxo5c49T6",
     "mentorsUrl": "https://github.com/nodeschool/santiago/issues/27",
-    "ticketsUrl": "https://lu.ma/nodeschool-santiago-abril-2023"
+    "ticketsUrl": "https://lu.ma/nodeschool-santiago-junio-2023"
   }
 }
